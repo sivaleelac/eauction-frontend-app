@@ -1,0 +1,231 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Seller Product with Bids details should render product bids list Component 1`] = `
+Array [
+  <div>
+    <div
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      <EAuctionToast>
+        Object {
+          "headMessage": "",
+          "message": "",
+          "show": false,
+        }
+      </EAuctionToast>
+    </div>
+    <div
+      className="list-div-select"
+    >
+      <dl
+        className="row"
+      >
+        <dt
+          className="col-sm-1"
+        >
+          Select Product: 
+        </dt>
+        <dd
+          className="col-sm-10"
+        >
+          <FormSelect
+            className="select-box"
+            onChange={[Function]}
+          >
+            <option
+              value=""
+            >
+              -- Please select --
+            </option>
+          </FormSelect>
+        </dd>
+      </dl>
+    </div>
+    <div>
+      <div
+        className="list-div"
+      >
+        <Card
+          body={false}
+          className="border border-dark bg-light text-black"
+        >
+          <CardHeader>
+            Product Details
+          </CardHeader>
+          <CardBody>
+            <div>
+              Product data not available
+            </div>
+          </CardBody>
+        </Card>
+      </div>
+      <div
+        className="list-div"
+      >
+        <Card
+          body={false}
+          className="border border-dark bg-light text-black"
+        >
+          <CardHeader>
+            Bids
+          </CardHeader>
+          <CardBody>
+            <ForwardRef
+              bordered={true}
+              hover={true}
+              striped={true}
+            >
+              <thead>
+                <tr>
+                  <th>
+                    #
+                  </th>
+                  <th>
+                    Name
+                  </th>
+                  <th>
+                    Email
+                  </th>
+                  <th>
+                    Bid  Amount
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr
+                  align="center"
+                >
+                  <td
+                    colSpan="6"
+                  >
+                    No Bids Available
+                  </td>
+                </tr>
+              </tbody>
+            </ForwardRef>
+          </CardBody>
+        </Card>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Seller Product with Bids details should render product bids list Component 2`] = `
+Array [
+  <div>
+    <div
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      <EAuctionToast>
+        Object {
+          "headMessage": "",
+          "message": "",
+          "show": false,
+        }
+      </EAuctionToast>
+    </div>
+    <div
+      className="list-div-select"
+    >
+      <dl
+        className="row"
+      >
+        <dt
+          className="col-sm-1"
+        >
+          Select Product: 
+        </dt>
+        <dd
+          className="col-sm-10"
+        >
+          <FormSelect
+            className="select-box"
+            onChange={[Function]}
+          >
+            <option
+              value=""
+            >
+              -- Please select --
+            </option>
+          </FormSelect>
+        </dd>
+      </dl>
+    </div>
+    <div>
+      <div
+        className="list-div"
+      >
+        <Card
+          body={false}
+          className="border border-dark bg-light text-black"
+        >
+          <CardHeader>
+            Product Details
+          </CardHeader>
+          <CardBody>
+            <div>
+              Product data not available
+            </div>
+          </CardBody>
+        </Card>
+      </div>
+      <div
+        className="list-div"
+      >
+        <Card
+          body={false}
+          className="border border-dark bg-light text-black"
+        >
+          <CardHeader>
+            Bids
+          </CardHeader>
+          <CardBody>
+            <ForwardRef
+              bordered={true}
+              hover={true}
+              striped={true}
+            >
+              <thead>
+                <tr>
+                  <th>
+                    #
+                  </th>
+                  <th>
+                    Name
+                  </th>
+                  <th>
+                    Email
+                  </th>
+                  <th>
+                    Bid  Amount
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr
+                  align="center"
+                >
+                  <td
+                    colSpan="6"
+                  >
+                    No Bids Available
+                  </td>
+                </tr>
+              </tbody>
+            </ForwardRef>
+          </CardBody>
+        </Card>
+      </div>
+    </div>
+  </div>,
+]
+`;
